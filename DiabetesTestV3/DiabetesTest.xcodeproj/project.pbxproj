@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981D3A841B93FC49003A6686 /* Aderezos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A221B93FC49003A6686 /* Aderezos.json */; };
+		981D3A851B93FC49003A6686 /* Aguas Saborizadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A231B93FC49003A6686 /* Aguas Saborizadas.json */; };
+		981D3A861B93FC49003A6686 /* Aguas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A241B93FC49003A6686 /* Aguas.json */; };
+		981D3A871B93FC49003A6686 /* Alfajores.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A251B93FC49003A6686 /* Alfajores.json */; };
+		981D3A881B93FC49003A6686 /* Amargos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A261B93FC49003A6686 /* Amargos.json */; };
+		981D3A891B93FC49003A6686 /* Bebidas a base de soja.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A271B93FC49003A6686 /* Bebidas a base de soja.json */; };
+		981D3A8A1B93FC49003A6686 /* Bebidas Alcohólicas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A281B93FC49003A6686 /* Bebidas Alcohólicas.json */; };
+		981D3A8B1B93FC49003A6686 /* Caldos y Sopas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A291B93FC49003A6686 /* Caldos y Sopas.json */; };
+		981D3A8C1B93FC49003A6686 /* Cereales Infantiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A2A1B93FC49003A6686 /* Cereales Infantiles.json */; };
+		981D3A8D1B93FC49003A6686 /* Chocolates.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A2B1B93FC49003A6686 /* Chocolates.json */; };
+		981D3A8E1B93FC49003A6686 /* Colados y Picados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A2C1B93FC49003A6686 /* Colados y Picados.json */; };
+		981D3A8F1B93FC49003A6686 /* Comidas instantáneas deshidratadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A2D1B93FC49003A6686 /* Comidas instantáneas deshidratadas.json */; };
+		981D3A901B93FC49003A6686 /* Condimentos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A2E1B93FC49003A6686 /* Condimentos.json */; };
+		981D3A911B93FC49003A6686 /* Copetín.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A2F1B93FC49003A6686 /* Copetín.json */; };
+		981D3A921B93FC49003A6686 /* Dulces Mermeladas Jaleas y Miel.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A301B93FC49003A6686 /* Dulces Mermeladas Jaleas y Miel.json */; };
+		981D3A931B93FC49003A6686 /* Fórmulas infantiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A311B93FC49003A6686 /* Fórmulas infantiles.json */; };
+		981D3A941B93FC49003A6686 /* Gaseosas Light.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A321B93FC49003A6686 /* Gaseosas Light.json */; };
+		981D3A951B93FC49003A6686 /* Gaseosas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A331B93FC49003A6686 /* Gaseosas.json */; };
+		981D3A961B93FC49003A6686 /* Golosinas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A341B93FC49003A6686 /* Golosinas.json */; };
+		981D3A971B93FC49003A6686 /* Helado dietético.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A351B93FC49003A6686 /* Helado dietético.json */; };
+		981D3A981B93FC49003A6686 /* Helado estandar.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A361B93FC49003A6686 /* Helado estandar.json */; };
+		981D3A991B93FC49003A6686 /* Hierbas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A371B93FC49003A6686 /* Hierbas.json */; };
+		981D3A9A1B93FC49003A6686 /* Infusiones.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A381B93FC49003A6686 /* Infusiones.json */; };
+		981D3A9B1B93FC49003A6686 /* Jugos en polvo.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A391B93FC49003A6686 /* Jugos en polvo.json */; };
+		981D3A9C1B93FC49003A6686 /* Jugos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A3A1B93FC49003A6686 /* Jugos.json */; };
+		981D3A9D1B93FC49003A6686 /* Leches Infantiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A3B1B93FC49003A6686 /* Leches Infantiles.json */; };
+		981D3A9E1B93FC49003A6686 /* Mermeladas Bajas Calorias.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A3C1B93FC49003A6686 /* Mermeladas Bajas Calorias.json */; };
+		981D3A9F1B93FC49003A6686 /* Polvo para postre dietético.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A3D1B93FC49003A6686 /* Polvo para postre dietético.json */; };
+		981D3AA01B93FC49003A6686 /* Polvo para postre estandar.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A3E1B93FC49003A6686 /* Polvo para postre estandar.json */; };
+		981D3AA11B93FC49003A6686 /* Polvo para saborizar leches.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A3F1B93FC49003A6686 /* Polvo para saborizar leches.json */; };
+		981D3AA21B93FC49003A6686 /* Repostería.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A401B93FC49003A6686 /* Repostería.json */; };
+		981D3AA31B93FC49003A6686 /* Salsas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A411B93FC49003A6686 /* Salsas.json */; };
+		981D3AA41B93FC49003A6686 /* Amasados Industriales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A431B93FC49003A6686 /* Amasados Industriales.json */; };
+		981D3AA51B93FC49003A6686 /* Barras de cereal por unidad.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A441B93FC49003A6686 /* Barras de cereal por unidad.json */; };
+		981D3AA61B93FC49003A6686 /* Cereales para el desayuno.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A451B93FC49003A6686 /* Cereales para el desayuno.json */; };
+		981D3AA71B93FC49003A6686 /* Cereales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A461B93FC49003A6686 /* Cereales.json */; };
+		981D3AA81B93FC49003A6686 /* Comidas elaboradas a base de almidones.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A471B93FC49003A6686 /* Comidas elaboradas a base de almidones.json */; };
+		981D3AA91B93FC49003A6686 /* Galletitas Dulces.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A481B93FC49003A6686 /* Galletitas Dulces.json */; };
+		981D3AAA1B93FC49003A6686 /* Galletitas y Tostaditas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A491B93FC49003A6686 /* Galletitas y Tostaditas.json */; };
+		981D3AAB1B93FC49003A6686 /* Harinas de legumbres.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A4A1B93FC49003A6686 /* Harinas de legumbres.json */; };
+		981D3AAC1B93FC49003A6686 /* Harinas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A4B1B93FC49003A6686 /* Harinas.json */; };
+		981D3AAD1B93FC49003A6686 /* Legumbres congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A4C1B93FC49003A6686 /* Legumbres congeladas.json */; };
+		981D3AAE1B93FC49003A6686 /* Legumbres en conserva.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A4D1B93FC49003A6686 /* Legumbres en conserva.json */; };
+		981D3AAF1B93FC49003A6686 /* Legumbres.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A4E1B93FC49003A6686 /* Legumbres.json */; };
+		981D3AB01B93FC49003A6686 /* Panes blancos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A4F1B93FC49003A6686 /* Panes blancos.json */; };
+		981D3AB11B93FC49003A6686 /* Panes integrales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A501B93FC49003A6686 /* Panes integrales.json */; };
+		981D3AB21B93FC49003A6686 /* Pastas Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A511B93FC49003A6686 /* Pastas Congeladas.json */; };
+		981D3AB31B93FC49003A6686 /* Pastas Frescas Rellenas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A521B93FC49003A6686 /* Pastas Frescas Rellenas.json */; };
+		981D3AB41B93FC49003A6686 /* Pastas Frescas Simples.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A531B93FC49003A6686 /* Pastas Frescas Simples.json */; };
+		981D3AB51B93FC49003A6686 /* Pastas secas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A541B93FC49003A6686 /* Pastas secas.json */; };
+		981D3AB61B93FC49003A6686 /* Polvo para preparar tortas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A551B93FC49003A6686 /* Polvo para preparar tortas.json */; };
+		981D3AB71B93FC49003A6686 /* Premezclas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A561B93FC49003A6686 /* Premezclas.json */; };
+		981D3AB81B93FC49003A6686 /* Productos de Confiteria.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A571B93FC49003A6686 /* Productos de Confiteria.json */; };
+		981D3AB91B93FC49003A6686 /* Productos Prelistos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A581B93FC49003A6686 /* Productos Prelistos.json */; };
+		981D3ABA1B93FC49003A6686 /* Productos usados en panificación.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A591B93FC49003A6686 /* Productos usados en panificación.json */; };
+		981D3ABB1B93FC4A003A6686 /* Rebozadores y Pan Rallado.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A5A1B93FC49003A6686 /* Rebozadores y Pan Rallado.json */; };
+		981D3ABC1B93FC4A003A6686 /* Soja y derivados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A5B1B93FC49003A6686 /* Soja y derivados.json */; };
+		981D3ABD1B93FC4A003A6686 /* Tapas y Masas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A5C1B93FC49003A6686 /* Tapas y Masas.json */; };
+		981D3ABE1B93FC4A003A6686 /* Tostadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A5D1B93FC49003A6686 /* Tostadas.json */; };
+		981D3ABF1B93FC4A003A6686 /* Verduras Feculentas Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A5E1B93FC49003A6686 /* Verduras Feculentas Congeladas.json */; };
+		981D3AC01B93FC4A003A6686 /* Verduras Feculentas en Conserva.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A5F1B93FC49003A6686 /* Verduras Feculentas en Conserva.json */; };
+		981D3AC11B93FC4A003A6686 /* Verduras Feculentas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A601B93FC49003A6686 /* Verduras Feculentas.json */; };
+		981D3AC21B93FC4A003A6686 /* Aceites Animales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A621B93FC49003A6686 /* Aceites Animales.json */; };
+		981D3AC31B93FC4A003A6686 /* Aceites Vegetales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A631B93FC49003A6686 /* Aceites Vegetales.json */; };
+		981D3AC41B93FC4A003A6686 /* Cremas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A641B93FC49003A6686 /* Cremas.json */; };
+		981D3AC51B93FC4A003A6686 /* Frutas Secas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A651B93FC49003A6686 /* Frutas Secas.json */; };
+		981D3AC61B93FC4A003A6686 /* Frutos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A661B93FC49003A6686 /* Frutos.json */; };
+		981D3AC71B93FC4A003A6686 /* Grasas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A671B93FC49003A6686 /* Grasas.json */; };
+		981D3AC81B93FC4A003A6686 /* Manteca.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A681B93FC49003A6686 /* Manteca.json */; };
+		981D3AC91B93FC4A003A6686 /* Margarinas y Mantecas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A691B93FC49003A6686 /* Margarinas y Mantecas.json */; };
+		981D3ACA1B93FC4A003A6686 /* Mayonesas y Derivados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A6A1B93FC49003A6686 /* Mayonesas y Derivados.json */; };
+		981D3ACB1B93FC4A003A6686 /* Semillas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A6B1B93FC49003A6686 /* Semillas.json */; };
+		981D3ACC1B93FC4A003A6686 /* Sustitutos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A6C1B93FC49003A6686 /* Sustitutos.json */; };
+		981D3ACD1B93FC4A003A6686 /* Leches en polvo descremadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A6E1B93FC49003A6686 /* Leches en polvo descremadas.json */; };
+		981D3ACE1B93FC4A003A6686 /* Leches en polvo enteras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A6F1B93FC49003A6686 /* Leches en polvo enteras.json */; };
+		981D3ACF1B93FC4A003A6686 /* Leches fluidas descremadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A701B93FC49003A6686 /* Leches fluidas descremadas.json */; };
+		981D3AD01B93FC4A003A6686 /* Leches fluidas enteras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A711B93FC49003A6686 /* Leches fluidas enteras.json */; };
+		981D3AD11B93FC4A003A6686 /* Leches fluidas saborizadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A721B93FC49003A6686 /* Leches fluidas saborizadas.json */; };
+		981D3AD21B93FC4A003A6686 /* Leches Modificadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A731B93FC49003A6686 /* Leches Modificadas.json */; };
+		981D3AD31B93FC4A003A6686 /* Leches Otro.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A741B93FC49003A6686 /* Leches Otro.json */; };
+		981D3AD41B93FC4A003A6686 /* Postres.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A751B93FC49003A6686 /* Postres.json */; };
+		981D3AD51B93FC4A003A6686 /* Yogures Descremados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A761B93FC49003A6686 /* Yogures Descremados.json */; };
+		981D3AD61B93FC4A003A6686 /* Yogures Enteros.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A771B93FC49003A6686 /* Yogures Enteros.json */; };
+		981D3AD71B93FC4A003A6686 /* Alimentos Condimento.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A791B93FC49003A6686 /* Alimentos Condimento.json */; };
+		981D3AD81B93FC4A003A6686 /* Comidas preparadas a base de verduras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A7A1B93FC49003A6686 /* Comidas preparadas a base de verduras.json */; };
+		981D3AD91B93FC4A003A6686 /* Frutas Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A7B1B93FC49003A6686 /* Frutas Congeladas.json */; };
+		981D3ADA1B93FC4A003A6686 /* Frutas disecadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A7C1B93FC49003A6686 /* Frutas disecadas.json */; };
+		981D3ADB1B93FC4A003A6686 /* Frutas en conserva dietéticas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A7D1B93FC49003A6686 /* Frutas en conserva dietéticas.json */; };
+		981D3ADC1B93FC4A003A6686 /* Frutas en conserva estandar.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A7E1B93FC49003A6686 /* Frutas en conserva estandar.json */; };
+		981D3ADD1B93FC4A003A6686 /* Frutas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A7F1B93FC49003A6686 /* Frutas.json */; };
+		981D3ADE1B93FC4A003A6686 /* Hongos y Brotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A801B93FC49003A6686 /* Hongos y Brotes.json */; };
+		981D3ADF1B93FC4A003A6686 /* Verduras Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A811B93FC49003A6686 /* Verduras Congeladas.json */; };
+		981D3AE01B93FC4A003A6686 /* Verduras Enlatadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A821B93FC49003A6686 /* Verduras Enlatadas.json */; };
+		981D3AE11B93FC4A003A6686 /* Verduras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3A831B93FC49003A6686 /* Verduras.json */; };
+		986345501B935D0C00401931 /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9863454F1B935D0C00401931 /* ComidasViewController.m */; };
+		986345531B935DFE00401931 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 986345521B935DFE00401931 /* FoodTableViewCell.m */; };
+		986345551B93991200401931 /* FoodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 986345541B93991200401931 /* FoodList.plist */; };
+		986345571B939FB900401931 /* cereales.json in Resources */ = {isa = PBXBuildFile; fileRef = 986345561B939FB900401931 /* cereales.json */; };
+		9863455A1B93A03700401931 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 986345591B93A03700401931 /* FoodItem.m */; };
+		988D8D211B770C8F00DB76D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D201B770C8F00DB76D9 /* main.m */; };
+		988D8D241B770C8F00DB76D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D231B770C8F00DB76D9 /* AppDelegate.m */; };
+		988D8D271B770C8F00DB76D9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D261B770C8F00DB76D9 /* FirstViewController.m */; };
+		988D8D2A1B770C8F00DB76D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D291B770C8F00DB76D9 /* SecondViewController.m */; };
+		988D8D2D1B770C8F00DB76D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988D8D2B1B770C8F00DB76D9 /* Main.storyboard */; };
+		988D8D2F1B770C8F00DB76D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988D8D2E1B770C8F00DB76D9 /* Images.xcassets */; };
+		988D8D321B770C8F00DB76D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988D8D301B770C8F00DB76D9 /* LaunchScreen.xib */; };
+		988D8D3E1B770C8F00DB76D9 /* DiabetesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D3D1B770C8F00DB76D9 /* DiabetesTestTests.m */; };
+		988D8D491B772C2500DB76D9 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D481B772C2500DB76D9 /* InfoViewController.m */; };
+		988D8D4B1B77358500DB76D9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988D8D4A1B77358500DB76D9 /* MessageUI.framework */; };
+		988D8D4E1B78631900DB76D9 /* StepOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D4D1B78631900DB76D9 /* StepOneViewController.m */; };
+		988D8D511B7864FB00DB76D9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D501B7864FB00DB76D9 /* MainViewController.m */; };
+		988D8D541B78666A00DB76D9 /* StepThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988D8D531B78666A00DB76D9 /* StepThreeViewController.m */; };
+		98D617C91B8AB31400C160E6 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617C81B8AB31400C160E6 /* CurveView.m */; };
+		98D617DD1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617CC1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.m */; };
+		98D617DE1B922C3A00C160E6 /* JVAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617CE1B922C3A00C160E6 /* JVAlertAction.m */; };
+		98D617DF1B922C3A00C160E6 /* JVAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617CF1B922C3A00C160E6 /* JVAlertController.m */; };
+		98D617E01B922C3A00C160E6 /* JVAlertControllerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617D11B922C3A00C160E6 /* JVAlertControllerBackgroundView.m */; };
+		98D617E11B922C3A00C160E6 /* JVAlertControllerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617D31B922C3A00C160E6 /* JVAlertControllerButton.m */; };
+		98D617E21B922C3A00C160E6 /* JVAlertControllerStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617D51B922C3A00C160E6 /* JVAlertControllerStyles.m */; };
+		98D617E31B922C3A00C160E6 /* JVAlertControllerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617D71B922C3A00C160E6 /* JVAlertControllerTextField.m */; };
+		98D617E41B922C3A00C160E6 /* JVAlertTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617D91B922C3A00C160E6 /* JVAlertTransitionDelegate.m */; };
+		98D617E51B922C3A00C160E6 /* JVPopoverPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617DA1B922C3A00C160E6 /* JVPopoverPresentationController.m */; };
+		98D617E61B922C3A00C160E6 /* UIViewController+JVAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617DC1B922C3A00C160E6 /* UIViewController+JVAlertController.m */; };
+		98D617E91B92852D00C160E6 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617E81B92852D00C160E6 /* DetalleViewController.m */; };
+		98D617EC1B9291C900C160E6 /* DetalleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D617EB1B9291C900C160E6 /* DetalleTableViewCell.m */; };
+		98E230981B9D08CC008EDF71 /* AllDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E230971B9D08CC008EDF71 /* AllDataViewController.m */; };
+		98E2309B1B9FE4BD008EDF71 /* InformacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E2309A1B9FE4BD008EDF71 /* InformacionViewController.m */; };
+		98E38D681B7B635800EF054A /* StepTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E38D671B7B635800EF054A /* StepTwoViewController.m */; };
+		98E38D6B1B7B638E00EF054A /* HealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E38D6A1B7B638E00EF054A /* HealthManager.m */; };
+		98E457501B817A15009ECC17 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E4574F1B817A15009ECC17 /* TabViewController.m */; };
+		98E457531B81910A009ECC17 /* CustomPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457521B81910A009ECC17 /* CustomPopoverViewController.m */; };
+		98E457561B821C9B009ECC17 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457551B821C9B009ECC17 /* StatisticsViewController.m */; };
+		98E457591B8228F5009ECC17 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457581B8228F5009ECC17 /* NewItemViewController.m */; };
+		98E4575F1B825009009ECC17 /* HealthDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E4575E1B825009009ECC17 /* HealthDTO.m */; };
+		98E457621B825EF2009ECC17 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457611B825EF2009ECC17 /* DataTableViewCell.m */; };
+		98E457651B825F05009ECC17 /* HealthDayDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457641B825F05009ECC17 /* HealthDayDTO.m */; };
+		98E457681B826373009ECC17 /* StatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457671B826373009ECC17 /* StatisticsTableViewCell.m */; };
+		98E457791B826608009ECC17 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457711B826608009ECC17 /* ALView+PureLayout.m */; };
+		98E4577A1B826608009ECC17 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457731B826608009ECC17 /* NSArray+PureLayout.m */; };
+		98E4577B1B826608009ECC17 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E457751B826608009ECC17 /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		988D8D381B770C8F00DB76D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 988D8D131B770C8F00DB76D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988D8D1A1B770C8F00DB76D9;
+			remoteInfo = DiabetesTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		981D3A221B93FC49003A6686 /* Aderezos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Aderezos.json; sourceTree = "<group>"; };
+		981D3A231B93FC49003A6686 /* Aguas Saborizadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aguas Saborizadas.json"; sourceTree = "<group>"; };
+		981D3A241B93FC49003A6686 /* Aguas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Aguas.json; sourceTree = "<group>"; };
+		981D3A251B93FC49003A6686 /* Alfajores.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alfajores.json; sourceTree = "<group>"; };
+		981D3A261B93FC49003A6686 /* Amargos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Amargos.json; sourceTree = "<group>"; };
+		981D3A271B93FC49003A6686 /* Bebidas a base de soja.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Bebidas a base de soja.json"; sourceTree = "<group>"; };
+		981D3A281B93FC49003A6686 /* Bebidas Alcohólicas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Bebidas Alcohólicas.json"; sourceTree = "<group>"; };
+		981D3A291B93FC49003A6686 /* Caldos y Sopas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Caldos y Sopas.json"; sourceTree = "<group>"; };
+		981D3A2A1B93FC49003A6686 /* Cereales Infantiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cereales Infantiles.json"; sourceTree = "<group>"; };
+		981D3A2B1B93FC49003A6686 /* Chocolates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Chocolates.json; sourceTree = "<group>"; };
+		981D3A2C1B93FC49003A6686 /* Colados y Picados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Colados y Picados.json"; sourceTree = "<group>"; };
+		981D3A2D1B93FC49003A6686 /* Comidas instantáneas deshidratadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comidas instantáneas deshidratadas.json"; sourceTree = "<group>"; };
+		981D3A2E1B93FC49003A6686 /* Condimentos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Condimentos.json; sourceTree = "<group>"; };
+		981D3A2F1B93FC49003A6686 /* Copetín.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Copetín.json"; sourceTree = "<group>"; };
+		981D3A301B93FC49003A6686 /* Dulces Mermeladas Jaleas y Miel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Dulces Mermeladas Jaleas y Miel.json"; sourceTree = "<group>"; };
+		981D3A311B93FC49003A6686 /* Fórmulas infantiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Fórmulas infantiles.json"; sourceTree = "<group>"; };
+		981D3A321B93FC49003A6686 /* Gaseosas Light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Gaseosas Light.json"; sourceTree = "<group>"; };
+		981D3A331B93FC49003A6686 /* Gaseosas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gaseosas.json; sourceTree = "<group>"; };
+		981D3A341B93FC49003A6686 /* Golosinas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Golosinas.json; sourceTree = "<group>"; };
+		981D3A351B93FC49003A6686 /* Helado dietético.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Helado dietético.json"; sourceTree = "<group>"; };
+		981D3A361B93FC49003A6686 /* Helado estandar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Helado estandar.json"; sourceTree = "<group>"; };
+		981D3A371B93FC49003A6686 /* Hierbas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hierbas.json; sourceTree = "<group>"; };
+		981D3A381B93FC49003A6686 /* Infusiones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Infusiones.json; sourceTree = "<group>"; };
+		981D3A391B93FC49003A6686 /* Jugos en polvo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Jugos en polvo.json"; sourceTree = "<group>"; };
+		981D3A3A1B93FC49003A6686 /* Jugos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Jugos.json; sourceTree = "<group>"; };
+		981D3A3B1B93FC49003A6686 /* Leches Infantiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches Infantiles.json"; sourceTree = "<group>"; };
+		981D3A3C1B93FC49003A6686 /* Mermeladas Bajas Calorias.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Mermeladas Bajas Calorias.json"; sourceTree = "<group>"; };
+		981D3A3D1B93FC49003A6686 /* Polvo para postre dietético.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para postre dietético.json"; sourceTree = "<group>"; };
+		981D3A3E1B93FC49003A6686 /* Polvo para postre estandar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para postre estandar.json"; sourceTree = "<group>"; };
+		981D3A3F1B93FC49003A6686 /* Polvo para saborizar leches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para saborizar leches.json"; sourceTree = "<group>"; };
+		981D3A401B93FC49003A6686 /* Repostería.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Repostería.json"; sourceTree = "<group>"; };
+		981D3A411B93FC49003A6686 /* Salsas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Salsas.json; sourceTree = "<group>"; };
+		981D3A431B93FC49003A6686 /* Amasados Industriales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Amasados Industriales.json"; sourceTree = "<group>"; };
+		981D3A441B93FC49003A6686 /* Barras de cereal por unidad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Barras de cereal por unidad.json"; sourceTree = "<group>"; };
+		981D3A451B93FC49003A6686 /* Cereales para el desayuno.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cereales para el desayuno.json"; sourceTree = "<group>"; };
+		981D3A461B93FC49003A6686 /* Cereales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cereales.json; sourceTree = "<group>"; };
+		981D3A471B93FC49003A6686 /* Comidas elaboradas a base de almidones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comidas elaboradas a base de almidones.json"; sourceTree = "<group>"; };
+		981D3A481B93FC49003A6686 /* Galletitas Dulces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Galletitas Dulces.json"; sourceTree = "<group>"; };
+		981D3A491B93FC49003A6686 /* Galletitas y Tostaditas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Galletitas y Tostaditas.json"; sourceTree = "<group>"; };
+		981D3A4A1B93FC49003A6686 /* Harinas de legumbres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Harinas de legumbres.json"; sourceTree = "<group>"; };
+		981D3A4B1B93FC49003A6686 /* Harinas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Harinas.json; sourceTree = "<group>"; };
+		981D3A4C1B93FC49003A6686 /* Legumbres congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Legumbres congeladas.json"; sourceTree = "<group>"; };
+		981D3A4D1B93FC49003A6686 /* Legumbres en conserva.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Legumbres en conserva.json"; sourceTree = "<group>"; };
+		981D3A4E1B93FC49003A6686 /* Legumbres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Legumbres.json; sourceTree = "<group>"; };
+		981D3A4F1B93FC49003A6686 /* Panes blancos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Panes blancos.json"; sourceTree = "<group>"; };
+		981D3A501B93FC49003A6686 /* Panes integrales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Panes integrales.json"; sourceTree = "<group>"; };
+		981D3A511B93FC49003A6686 /* Pastas Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas Congeladas.json"; sourceTree = "<group>"; };
+		981D3A521B93FC49003A6686 /* Pastas Frescas Rellenas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas Frescas Rellenas.json"; sourceTree = "<group>"; };
+		981D3A531B93FC49003A6686 /* Pastas Frescas Simples.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas Frescas Simples.json"; sourceTree = "<group>"; };
+		981D3A541B93FC49003A6686 /* Pastas secas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas secas.json"; sourceTree = "<group>"; };
+		981D3A551B93FC49003A6686 /* Polvo para preparar tortas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para preparar tortas.json"; sourceTree = "<group>"; };
+		981D3A561B93FC49003A6686 /* Premezclas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Premezclas.json; sourceTree = "<group>"; };
+		981D3A571B93FC49003A6686 /* Productos de Confiteria.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Productos de Confiteria.json"; sourceTree = "<group>"; };
+		981D3A581B93FC49003A6686 /* Productos Prelistos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Productos Prelistos.json"; sourceTree = "<group>"; };
+		981D3A591B93FC49003A6686 /* Productos usados en panificación.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Productos usados en panificación.json"; sourceTree = "<group>"; };
+		981D3A5A1B93FC49003A6686 /* Rebozadores y Pan Rallado.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Rebozadores y Pan Rallado.json"; sourceTree = "<group>"; };
+		981D3A5B1B93FC49003A6686 /* Soja y derivados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Soja y derivados.json"; sourceTree = "<group>"; };
+		981D3A5C1B93FC49003A6686 /* Tapas y Masas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tapas y Masas.json"; sourceTree = "<group>"; };
+		981D3A5D1B93FC49003A6686 /* Tostadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tostadas.json; sourceTree = "<group>"; };
+		981D3A5E1B93FC49003A6686 /* Verduras Feculentas Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Feculentas Congeladas.json"; sourceTree = "<group>"; };
+		981D3A5F1B93FC49003A6686 /* Verduras Feculentas en Conserva.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Feculentas en Conserva.json"; sourceTree = "<group>"; };
+		981D3A601B93FC49003A6686 /* Verduras Feculentas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Feculentas.json"; sourceTree = "<group>"; };
+		981D3A621B93FC49003A6686 /* Aceites Animales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aceites Animales.json"; sourceTree = "<group>"; };
+		981D3A631B93FC49003A6686 /* Aceites Vegetales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aceites Vegetales.json"; sourceTree = "<group>"; };
+		981D3A641B93FC49003A6686 /* Cremas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cremas.json; sourceTree = "<group>"; };
+		981D3A651B93FC49003A6686 /* Frutas Secas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas Secas.json"; sourceTree = "<group>"; };
+		981D3A661B93FC49003A6686 /* Frutos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Frutos.json; sourceTree = "<group>"; };
+		981D3A671B93FC49003A6686 /* Grasas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Grasas.json; sourceTree = "<group>"; };
+		981D3A681B93FC49003A6686 /* Manteca.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Manteca.json; sourceTree = "<group>"; };
+		981D3A691B93FC49003A6686 /* Margarinas y Mantecas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Margarinas y Mantecas.json"; sourceTree = "<group>"; };
+		981D3A6A1B93FC49003A6686 /* Mayonesas y Derivados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Mayonesas y Derivados.json"; sourceTree = "<group>"; };
+		981D3A6B1B93FC49003A6686 /* Semillas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Semillas.json; sourceTree = "<group>"; };
+		981D3A6C1B93FC49003A6686 /* Sustitutos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sustitutos.json; sourceTree = "<group>"; };
+		981D3A6E1B93FC49003A6686 /* Leches en polvo descremadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches en polvo descremadas.json"; sourceTree = "<group>"; };
+		981D3A6F1B93FC49003A6686 /* Leches en polvo enteras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches en polvo enteras.json"; sourceTree = "<group>"; };
+		981D3A701B93FC49003A6686 /* Leches fluidas descremadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches fluidas descremadas.json"; sourceTree = "<group>"; };
+		981D3A711B93FC49003A6686 /* Leches fluidas enteras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches fluidas enteras.json"; sourceTree = "<group>"; };
+		981D3A721B93FC49003A6686 /* Leches fluidas saborizadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches fluidas saborizadas.json"; sourceTree = "<group>"; };
+		981D3A731B93FC49003A6686 /* Leches Modificadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches Modificadas.json"; sourceTree = "<group>"; };
+		981D3A741B93FC49003A6686 /* Leches Otro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches Otro.json"; sourceTree = "<group>"; };
+		981D3A751B93FC49003A6686 /* Postres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Postres.json; sourceTree = "<group>"; };
+		981D3A761B93FC49003A6686 /* Yogures Descremados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Yogures Descremados.json"; sourceTree = "<group>"; };
+		981D3A771B93FC49003A6686 /* Yogures Enteros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Yogures Enteros.json"; sourceTree = "<group>"; };
+		981D3A791B93FC49003A6686 /* Alimentos Condimento.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Alimentos Condimento.json"; sourceTree = "<group>"; };
+		981D3A7A1B93FC49003A6686 /* Comidas preparadas a base de verduras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comidas preparadas a base de verduras.json"; sourceTree = "<group>"; };
+		981D3A7B1B93FC49003A6686 /* Frutas Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas Congeladas.json"; sourceTree = "<group>"; };
+		981D3A7C1B93FC49003A6686 /* Frutas disecadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas disecadas.json"; sourceTree = "<group>"; };
+		981D3A7D1B93FC49003A6686 /* Frutas en conserva dietéticas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas en conserva dietéticas.json"; sourceTree = "<group>"; };
+		981D3A7E1B93FC49003A6686 /* Frutas en conserva estandar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas en conserva estandar.json"; sourceTree = "<group>"; };
+		981D3A7F1B93FC49003A6686 /* Frutas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Frutas.json; sourceTree = "<group>"; };
+		981D3A801B93FC49003A6686 /* Hongos y Brotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Hongos y Brotes.json"; sourceTree = "<group>"; };
+		981D3A811B93FC49003A6686 /* Verduras Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Congeladas.json"; sourceTree = "<group>"; };
+		981D3A821B93FC49003A6686 /* Verduras Enlatadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Enlatadas.json"; sourceTree = "<group>"; };
+		981D3A831B93FC49003A6686 /* Verduras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Verduras.json; sourceTree = "<group>"; };
+		9863454E1B935D0C00401931 /* ComidasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComidasViewController.h; sourceTree = "<group>"; };
+		9863454F1B935D0C00401931 /* ComidasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComidasViewController.m; sourceTree = "<group>"; };
+		986345511B935DFE00401931 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		986345521B935DFE00401931 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		986345541B93991200401931 /* FoodList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoodList.plist; sourceTree = "<group>"; };
+		986345561B939FB900401931 /* cereales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cereales.json; sourceTree = "<group>"; };
+		986345581B93A03700401931 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		986345591B93A03700401931 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		988D8D1B1B770C8F00DB76D9 /* DiabetesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabetesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988D8D1F1B770C8F00DB76D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988D8D201B770C8F00DB76D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		988D8D221B770C8F00DB76D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		988D8D231B770C8F00DB76D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		988D8D251B770C8F00DB76D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		988D8D261B770C8F00DB76D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		988D8D281B770C8F00DB76D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		988D8D291B770C8F00DB76D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		988D8D2C1B770C8F00DB76D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		988D8D2E1B770C8F00DB76D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		988D8D311B770C8F00DB76D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		988D8D371B770C8F00DB76D9 /* DiabetesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988D8D3C1B770C8F00DB76D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988D8D3D1B770C8F00DB76D9 /* DiabetesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesTestTests.m; sourceTree = "<group>"; };
+		988D8D471B772C2500DB76D9 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		988D8D481B772C2500DB76D9 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		988D8D4A1B77358500DB76D9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		988D8D4C1B78631900DB76D9 /* StepOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepOneViewController.h; sourceTree = "<group>"; };
+		988D8D4D1B78631900DB76D9 /* StepOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepOneViewController.m; sourceTree = "<group>"; };
+		988D8D4F1B7864FB00DB76D9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		988D8D501B7864FB00DB76D9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		988D8D521B78666A00DB76D9 /* StepThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepThreeViewController.h; sourceTree = "<group>"; };
+		988D8D531B78666A00DB76D9 /* StepThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepThreeViewController.m; sourceTree = "<group>"; };
+		98D617C71B8AB31400C160E6 /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		98D617C81B8AB31400C160E6 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		98D617CB1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVActionSheetTransitionDelegate.h; sourceTree = "<group>"; };
+		98D617CC1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVActionSheetTransitionDelegate.m; sourceTree = "<group>"; };
+		98D617CD1B922C3A00C160E6 /* JVAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVAlertAction.h; sourceTree = "<group>"; };
+		98D617CE1B922C3A00C160E6 /* JVAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertAction.m; sourceTree = "<group>"; };
+		98D617CF1B922C3A00C160E6 /* JVAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertController.m; sourceTree = "<group>"; };
+		98D617D01B922C3A00C160E6 /* JVAlertControllerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVAlertControllerBackgroundView.h; sourceTree = "<group>"; };
+		98D617D11B922C3A00C160E6 /* JVAlertControllerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertControllerBackgroundView.m; sourceTree = "<group>"; };
+		98D617D21B922C3A00C160E6 /* JVAlertControllerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVAlertControllerButton.h; sourceTree = "<group>"; };
+		98D617D31B922C3A00C160E6 /* JVAlertControllerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertControllerButton.m; sourceTree = "<group>"; };
+		98D617D41B922C3A00C160E6 /* JVAlertControllerStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVAlertControllerStyles.h; sourceTree = "<group>"; };
+		98D617D51B922C3A00C160E6 /* JVAlertControllerStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertControllerStyles.m; sourceTree = "<group>"; };
+		98D617D61B922C3A00C160E6 /* JVAlertControllerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVAlertControllerTextField.h; sourceTree = "<group>"; };
+		98D617D71B922C3A00C160E6 /* JVAlertControllerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertControllerTextField.m; sourceTree = "<group>"; };
+		98D617D81B922C3A00C160E6 /* JVAlertTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVAlertTransitionDelegate.h; sourceTree = "<group>"; };
+		98D617D91B922C3A00C160E6 /* JVAlertTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVAlertTransitionDelegate.m; sourceTree = "<group>"; };
+		98D617DA1B922C3A00C160E6 /* JVPopoverPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVPopoverPresentationController.m; sourceTree = "<group>"; };
+		98D617DB1B922C3A00C160E6 /* UIViewController+JVAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JVAlertController.h"; sourceTree = "<group>"; };
+		98D617DC1B922C3A00C160E6 /* UIViewController+JVAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JVAlertController.m"; sourceTree = "<group>"; };
+		98D617E71B92852D00C160E6 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		98D617E81B92852D00C160E6 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		98D617EA1B9291C900C160E6 /* DetalleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleTableViewCell.h; sourceTree = "<group>"; };
+		98D617EB1B9291C900C160E6 /* DetalleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleTableViewCell.m; sourceTree = "<group>"; };
+		98E230961B9D08CC008EDF71 /* AllDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDataViewController.h; sourceTree = "<group>"; };
+		98E230971B9D08CC008EDF71 /* AllDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllDataViewController.m; sourceTree = "<group>"; };
+		98E230991B9FE4BD008EDF71 /* InformacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformacionViewController.h; sourceTree = "<group>"; };
+		98E2309A1B9FE4BD008EDF71 /* InformacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformacionViewController.m; sourceTree = "<group>"; };
+		98E38D661B7B635800EF054A /* StepTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepTwoViewController.h; sourceTree = "<group>"; };
+		98E38D671B7B635800EF054A /* StepTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepTwoViewController.m; sourceTree = "<group>"; };
+		98E38D691B7B638E00EF054A /* HealthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthManager.h; sourceTree = "<group>"; };
+		98E38D6A1B7B638E00EF054A /* HealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthManager.m; sourceTree = "<group>"; };
+		98E4574E1B817A15009ECC17 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		98E4574F1B817A15009ECC17 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		98E457511B81910A009ECC17 /* CustomPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopoverViewController.h; sourceTree = "<group>"; };
+		98E457521B81910A009ECC17 /* CustomPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopoverViewController.m; sourceTree = "<group>"; };
+		98E457541B821C9B009ECC17 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		98E457551B821C9B009ECC17 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		98E457571B8228F5009ECC17 /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
+		98E457581B8228F5009ECC17 /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemViewController.m; sourceTree = "<group>"; };
+		98E4575D1B825009009ECC17 /* HealthDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDTO.h; sourceTree = "<group>"; };
+		98E4575E1B825009009ECC17 /* HealthDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDTO.m; sourceTree = "<group>"; };
+		98E457601B825EF2009ECC17 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		98E457611B825EF2009ECC17 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		98E457631B825F05009ECC17 /* HealthDayDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDayDTO.h; sourceTree = "<group>"; };
+		98E457641B825F05009ECC17 /* HealthDayDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDayDTO.m; sourceTree = "<group>"; };
+		98E457661B826372009ECC17 /* StatisticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsTableViewCell.h; sourceTree = "<group>"; };
+		98E457671B826373009ECC17 /* StatisticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsTableViewCell.m; sourceTree = "<group>"; };
+		98E457701B826608009ECC17 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		98E457711B826608009ECC17 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		98E457721B826608009ECC17 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		98E457731B826608009ECC17 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		98E457741B826608009ECC17 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		98E457751B826608009ECC17 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		98E457761B826608009ECC17 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		98E457771B826608009ECC17 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		98E457781B826608009ECC17 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988D8D181B770C8F00DB76D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988D8D4B1B77358500DB76D9 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988D8D341B770C8F00DB76D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981D3A201B93FC49003A6686 /* DatosComidaJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A211B93FC49003A6686 /* AccesorioJSON */,
+				981D3A421B93FC49003A6686 /* AlmidonesJSON */,
+				981D3A611B93FC49003A6686 /* GrasasJSON */,
+				981D3A6D1B93FC49003A6686 /* LacteosJSON */,
+				981D3A781B93FC49003A6686 /* VerdurasJSON */,
+			);
+			path = DatosComidaJSON;
+			sourceTree = "<group>";
+		};
+		981D3A211B93FC49003A6686 /* AccesorioJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A221B93FC49003A6686 /* Aderezos.json */,
+				981D3A231B93FC49003A6686 /* Aguas Saborizadas.json */,
+				981D3A241B93FC49003A6686 /* Aguas.json */,
+				981D3A251B93FC49003A6686 /* Alfajores.json */,
+				981D3A261B93FC49003A6686 /* Amargos.json */,
+				981D3A271B93FC49003A6686 /* Bebidas a base de soja.json */,
+				981D3A281B93FC49003A6686 /* Bebidas Alcohólicas.json */,
+				981D3A291B93FC49003A6686 /* Caldos y Sopas.json */,
+				981D3A2A1B93FC49003A6686 /* Cereales Infantiles.json */,
+				981D3A2B1B93FC49003A6686 /* Chocolates.json */,
+				981D3A2C1B93FC49003A6686 /* Colados y Picados.json */,
+				981D3A2D1B93FC49003A6686 /* Comidas instantáneas deshidratadas.json */,
+				981D3A2E1B93FC49003A6686 /* Condimentos.json */,
+				981D3A2F1B93FC49003A6686 /* Copetín.json */,
+				981D3A301B93FC49003A6686 /* Dulces Mermeladas Jaleas y Miel.json */,
+				981D3A311B93FC49003A6686 /* Fórmulas infantiles.json */,
+				981D3A321B93FC49003A6686 /* Gaseosas Light.json */,
+				981D3A331B93FC49003A6686 /* Gaseosas.json */,
+				981D3A341B93FC49003A6686 /* Golosinas.json */,
+				981D3A351B93FC49003A6686 /* Helado dietético.json */,
+				981D3A361B93FC49003A6686 /* Helado estandar.json */,
+				981D3A371B93FC49003A6686 /* Hierbas.json */,
+				981D3A381B93FC49003A6686 /* Infusiones.json */,
+				981D3A391B93FC49003A6686 /* Jugos en polvo.json */,
+				981D3A3A1B93FC49003A6686 /* Jugos.json */,
+				981D3A3B1B93FC49003A6686 /* Leches Infantiles.json */,
+				981D3A3C1B93FC49003A6686 /* Mermeladas Bajas Calorias.json */,
+				981D3A3D1B93FC49003A6686 /* Polvo para postre dietético.json */,
+				981D3A3E1B93FC49003A6686 /* Polvo para postre estandar.json */,
+				981D3A3F1B93FC49003A6686 /* Polvo para saborizar leches.json */,
+				981D3A401B93FC49003A6686 /* Repostería.json */,
+				981D3A411B93FC49003A6686 /* Salsas.json */,
+			);
+			path = AccesorioJSON;
+			sourceTree = "<group>";
+		};
+		981D3A421B93FC49003A6686 /* AlmidonesJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A431B93FC49003A6686 /* Amasados Industriales.json */,
+				981D3A441B93FC49003A6686 /* Barras de cereal por unidad.json */,
+				981D3A451B93FC49003A6686 /* Cereales para el desayuno.json */,
+				981D3A461B93FC49003A6686 /* Cereales.json */,
+				981D3A471B93FC49003A6686 /* Comidas elaboradas a base de almidones.json */,
+				981D3A481B93FC49003A6686 /* Galletitas Dulces.json */,
+				981D3A491B93FC49003A6686 /* Galletitas y Tostaditas.json */,
+				981D3A4A1B93FC49003A6686 /* Harinas de legumbres.json */,
+				981D3A4B1B93FC49003A6686 /* Harinas.json */,
+				981D3A4C1B93FC49003A6686 /* Legumbres congeladas.json */,
+				981D3A4D1B93FC49003A6686 /* Legumbres en conserva.json */,
+				981D3A4E1B93FC49003A6686 /* Legumbres.json */,
+				981D3A4F1B93FC49003A6686 /* Panes blancos.json */,
+				981D3A501B93FC49003A6686 /* Panes integrales.json */,
+				981D3A511B93FC49003A6686 /* Pastas Congeladas.json */,
+				981D3A521B93FC49003A6686 /* Pastas Frescas Rellenas.json */,
+				981D3A531B93FC49003A6686 /* Pastas Frescas Simples.json */,
+				981D3A541B93FC49003A6686 /* Pastas secas.json */,
+				981D3A551B93FC49003A6686 /* Polvo para preparar tortas.json */,
+				981D3A561B93FC49003A6686 /* Premezclas.json */,
+				981D3A571B93FC49003A6686 /* Productos de Confiteria.json */,
+				981D3A581B93FC49003A6686 /* Productos Prelistos.json */,
+				981D3A591B93FC49003A6686 /* Productos usados en panificación.json */,
+				981D3A5A1B93FC49003A6686 /* Rebozadores y Pan Rallado.json */,
+				981D3A5B1B93FC49003A6686 /* Soja y derivados.json */,
+				981D3A5C1B93FC49003A6686 /* Tapas y Masas.json */,
+				981D3A5D1B93FC49003A6686 /* Tostadas.json */,
+				981D3A5E1B93FC49003A6686 /* Verduras Feculentas Congeladas.json */,
+				981D3A5F1B93FC49003A6686 /* Verduras Feculentas en Conserva.json */,
+				981D3A601B93FC49003A6686 /* Verduras Feculentas.json */,
+			);
+			path = AlmidonesJSON;
+			sourceTree = "<group>";
+		};
+		981D3A611B93FC49003A6686 /* GrasasJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A621B93FC49003A6686 /* Aceites Animales.json */,
+				981D3A631B93FC49003A6686 /* Aceites Vegetales.json */,
+				981D3A641B93FC49003A6686 /* Cremas.json */,
+				981D3A651B93FC49003A6686 /* Frutas Secas.json */,
+				981D3A661B93FC49003A6686 /* Frutos.json */,
+				981D3A671B93FC49003A6686 /* Grasas.json */,
+				981D3A681B93FC49003A6686 /* Manteca.json */,
+				981D3A691B93FC49003A6686 /* Margarinas y Mantecas.json */,
+				981D3A6A1B93FC49003A6686 /* Mayonesas y Derivados.json */,
+				981D3A6B1B93FC49003A6686 /* Semillas.json */,
+				981D3A6C1B93FC49003A6686 /* Sustitutos.json */,
+			);
+			path = GrasasJSON;
+			sourceTree = "<group>";
+		};
+		981D3A6D1B93FC49003A6686 /* LacteosJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A6E1B93FC49003A6686 /* Leches en polvo descremadas.json */,
+				981D3A6F1B93FC49003A6686 /* Leches en polvo enteras.json */,
+				981D3A701B93FC49003A6686 /* Leches fluidas descremadas.json */,
+				981D3A711B93FC49003A6686 /* Leches fluidas enteras.json */,
+				981D3A721B93FC49003A6686 /* Leches fluidas saborizadas.json */,
+				981D3A731B93FC49003A6686 /* Leches Modificadas.json */,
+				981D3A741B93FC49003A6686 /* Leches Otro.json */,
+				981D3A751B93FC49003A6686 /* Postres.json */,
+				981D3A761B93FC49003A6686 /* Yogures Descremados.json */,
+				981D3A771B93FC49003A6686 /* Yogures Enteros.json */,
+			);
+			path = LacteosJSON;
+			sourceTree = "<group>";
+		};
+		981D3A781B93FC49003A6686 /* VerdurasJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A791B93FC49003A6686 /* Alimentos Condimento.json */,
+				981D3A7A1B93FC49003A6686 /* Comidas preparadas a base de verduras.json */,
+				981D3A7B1B93FC49003A6686 /* Frutas Congeladas.json */,
+				981D3A7C1B93FC49003A6686 /* Frutas disecadas.json */,
+				981D3A7D1B93FC49003A6686 /* Frutas en conserva dietéticas.json */,
+				981D3A7E1B93FC49003A6686 /* Frutas en conserva estandar.json */,
+				981D3A7F1B93FC49003A6686 /* Frutas.json */,
+				981D3A801B93FC49003A6686 /* Hongos y Brotes.json */,
+				981D3A811B93FC49003A6686 /* Verduras Congeladas.json */,
+				981D3A821B93FC49003A6686 /* Verduras Enlatadas.json */,
+				981D3A831B93FC49003A6686 /* Verduras.json */,
+			);
+			path = VerdurasJSON;
+			sourceTree = "<group>";
+		};
+		988D8D121B770C8F00DB76D9 = {
+			isa = PBXGroup;
+			children = (
+				988D8D4A1B77358500DB76D9 /* MessageUI.framework */,
+				988D8D1D1B770C8F00DB76D9 /* DiabetesTest */,
+				988D8D3A1B770C8F00DB76D9 /* DiabetesTestTests */,
+				988D8D1C1B770C8F00DB76D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		988D8D1C1B770C8F00DB76D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988D8D1B1B770C8F00DB76D9 /* DiabetesTest.app */,
+				988D8D371B770C8F00DB76D9 /* DiabetesTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988D8D1D1B770C8F00DB76D9 /* DiabetesTest */ = {
+			isa = PBXGroup;
+			children = (
+				98E4576F1B826608009ECC17 /* PureLayout */,
+				988D8D221B770C8F00DB76D9 /* AppDelegate.h */,
+				988D8D231B770C8F00DB76D9 /* AppDelegate.m */,
+				988D8D251B770C8F00DB76D9 /* FirstViewController.h */,
+				988D8D261B770C8F00DB76D9 /* FirstViewController.m */,
+				988D8D281B770C8F00DB76D9 /* SecondViewController.h */,
+				988D8D291B770C8F00DB76D9 /* SecondViewController.m */,
+				988D8D471B772C2500DB76D9 /* InfoViewController.h */,
+				988D8D481B772C2500DB76D9 /* InfoViewController.m */,
+				988D8D4C1B78631900DB76D9 /* StepOneViewController.h */,
+				988D8D4D1B78631900DB76D9 /* StepOneViewController.m */,
+				98E38D661B7B635800EF054A /* StepTwoViewController.h */,
+				98E38D671B7B635800EF054A /* StepTwoViewController.m */,
+				988D8D521B78666A00DB76D9 /* StepThreeViewController.h */,
+				988D8D531B78666A00DB76D9 /* StepThreeViewController.m */,
+				9863454E1B935D0C00401931 /* ComidasViewController.h */,
+				9863454F1B935D0C00401931 /* ComidasViewController.m */,
+				986345511B935DFE00401931 /* FoodTableViewCell.h */,
+				986345521B935DFE00401931 /* FoodTableViewCell.m */,
+				98E457511B81910A009ECC17 /* CustomPopoverViewController.h */,
+				98E457521B81910A009ECC17 /* CustomPopoverViewController.m */,
+				988D8D4F1B7864FB00DB76D9 /* MainViewController.h */,
+				988D8D501B7864FB00DB76D9 /* MainViewController.m */,
+				98E4574E1B817A15009ECC17 /* TabViewController.h */,
+				98E4574F1B817A15009ECC17 /* TabViewController.m */,
+				98E457541B821C9B009ECC17 /* StatisticsViewController.h */,
+				98E457551B821C9B009ECC17 /* StatisticsViewController.m */,
+				98E230961B9D08CC008EDF71 /* AllDataViewController.h */,
+				98E230971B9D08CC008EDF71 /* AllDataViewController.m */,
+				98E457571B8228F5009ECC17 /* NewItemViewController.h */,
+				98E457581B8228F5009ECC17 /* NewItemViewController.m */,
+				98D617E71B92852D00C160E6 /* DetalleViewController.h */,
+				98D617E81B92852D00C160E6 /* DetalleViewController.m */,
+				98D617EA1B9291C900C160E6 /* DetalleTableViewCell.h */,
+				98D617EB1B9291C900C160E6 /* DetalleTableViewCell.m */,
+				98E38D691B7B638E00EF054A /* HealthManager.h */,
+				98E38D6A1B7B638E00EF054A /* HealthManager.m */,
+				98E457601B825EF2009ECC17 /* DataTableViewCell.h */,
+				98E457611B825EF2009ECC17 /* DataTableViewCell.m */,
+				98E4575D1B825009009ECC17 /* HealthDTO.h */,
+				98E4575E1B825009009ECC17 /* HealthDTO.m */,
+				98E457631B825F05009ECC17 /* HealthDayDTO.h */,
+				98E457641B825F05009ECC17 /* HealthDayDTO.m */,
+				98E457661B826372009ECC17 /* StatisticsTableViewCell.h */,
+				98E457671B826373009ECC17 /* StatisticsTableViewCell.m */,
+				98E230991B9FE4BD008EDF71 /* InformacionViewController.h */,
+				98E2309A1B9FE4BD008EDF71 /* InformacionViewController.m */,
+				98D617C71B8AB31400C160E6 /* CurveView.h */,
+				98D617C81B8AB31400C160E6 /* CurveView.m */,
+				986345581B93A03700401931 /* FoodItem.h */,
+				986345591B93A03700401931 /* FoodItem.m */,
+				988D8D2B1B770C8F00DB76D9 /* Main.storyboard */,
+				988D8D2E1B770C8F00DB76D9 /* Images.xcassets */,
+				988D8D301B770C8F00DB76D9 /* LaunchScreen.xib */,
+				988D8D1E1B770C8F00DB76D9 /* Supporting Files */,
+			);
+			path = DiabetesTest;
+			sourceTree = "<group>";
+		};
+		988D8D1E1B770C8F00DB76D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981D3A201B93FC49003A6686 /* DatosComidaJSON */,
+				98D617CA1B922C3A00C160E6 /* JVAlertController */,
+				988D8D1F1B770C8F00DB76D9 /* Info.plist */,
+				988D8D201B770C8F00DB76D9 /* main.m */,
+				986345541B93991200401931 /* FoodList.plist */,
+				986345561B939FB900401931 /* cereales.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		988D8D3A1B770C8F00DB76D9 /* DiabetesTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				988D8D3D1B770C8F00DB76D9 /* DiabetesTestTests.m */,
+				988D8D3B1B770C8F00DB76D9 /* Supporting Files */,
+			);
+			path = DiabetesTestTests;
+			sourceTree = "<group>";
+		};
+		988D8D3B1B770C8F00DB76D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988D8D3C1B770C8F00DB76D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98D617CA1B922C3A00C160E6 /* JVAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				98D617CB1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.h */,
+				98D617CC1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.m */,
+				98D617CD1B922C3A00C160E6 /* JVAlertAction.h */,
+				98D617CE1B922C3A00C160E6 /* JVAlertAction.m */,
+				98D617CF1B922C3A00C160E6 /* JVAlertController.m */,
+				98D617D01B922C3A00C160E6 /* JVAlertControllerBackgroundView.h */,
+				98D617D11B922C3A00C160E6 /* JVAlertControllerBackgroundView.m */,
+				98D617D21B922C3A00C160E6 /* JVAlertControllerButton.h */,
+				98D617D31B922C3A00C160E6 /* JVAlertControllerButton.m */,
+				98D617D41B922C3A00C160E6 /* JVAlertControllerStyles.h */,
+				98D617D51B922C3A00C160E6 /* JVAlertControllerStyles.m */,
+				98D617D61B922C3A00C160E6 /* JVAlertControllerTextField.h */,
+				98D617D71B922C3A00C160E6 /* JVAlertControllerTextField.m */,
+				98D617D81B922C3A00C160E6 /* JVAlertTransitionDelegate.h */,
+				98D617D91B922C3A00C160E6 /* JVAlertTransitionDelegate.m */,
+				98D617DA1B922C3A00C160E6 /* JVPopoverPresentationController.m */,
+				98D617DB1B922C3A00C160E6 /* UIViewController+JVAlertController.h */,
+				98D617DC1B922C3A00C160E6 /* UIViewController+JVAlertController.m */,
+			);
+			path = JVAlertController;
+			sourceTree = "<group>";
+		};
+		98E4576F1B826608009ECC17 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				98E457701B826608009ECC17 /* ALView+PureLayout.h */,
+				98E457711B826608009ECC17 /* ALView+PureLayout.m */,
+				98E457721B826608009ECC17 /* NSArray+PureLayout.h */,
+				98E457731B826608009ECC17 /* NSArray+PureLayout.m */,
+				98E457741B826608009ECC17 /* NSLayoutConstraint+PureLayout.h */,
+				98E457751B826608009ECC17 /* NSLayoutConstraint+PureLayout.m */,
+				98E457761B826608009ECC17 /* PureLayout+Internal.h */,
+				98E457771B826608009ECC17 /* PureLayout.h */,
+				98E457781B826608009ECC17 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988D8D1A1B770C8F00DB76D9 /* DiabetesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988D8D411B770C8F00DB76D9 /* Build configuration list for PBXNativeTarget "DiabetesTest" */;
+			buildPhases = (
+				988D8D171B770C8F00DB76D9 /* Sources */,
+				988D8D181B770C8F00DB76D9 /* Frameworks */,
+				988D8D191B770C8F00DB76D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiabetesTest;
+			productName = DiabetesTest;
+			productReference = 988D8D1B1B770C8F00DB76D9 /* DiabetesTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		988D8D361B770C8F00DB76D9 /* DiabetesTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988D8D441B770C8F00DB76D9 /* Build configuration list for PBXNativeTarget "DiabetesTestTests" */;
+			buildPhases = (
+				988D8D331B770C8F00DB76D9 /* Sources */,
+				988D8D341B770C8F00DB76D9 /* Frameworks */,
+				988D8D351B770C8F00DB76D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988D8D391B770C8F00DB76D9 /* PBXTargetDependency */,
+			);
+			name = DiabetesTestTests;
+			productName = DiabetesTestTests;
+			productReference = 988D8D371B770C8F00DB76D9 /* DiabetesTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988D8D131B770C8F00DB76D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Federico Bustos Fierro";
+				TargetAttributes = {
+					988D8D1A1B770C8F00DB76D9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = SS99NH97T4;
+					};
+					988D8D361B770C8F00DB76D9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 988D8D1A1B770C8F00DB76D9;
+					};
+				};
+			};
+			buildConfigurationList = 988D8D161B770C8F00DB76D9 /* Build configuration list for PBXProject "DiabetesTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 988D8D121B770C8F00DB76D9;
+			productRefGroup = 988D8D1C1B770C8F00DB76D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988D8D1A1B770C8F00DB76D9 /* DiabetesTest */,
+				988D8D361B770C8F00DB76D9 /* DiabetesTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988D8D191B770C8F00DB76D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981D3AAF1B93FC49003A6686 /* Legumbres.json in Resources */,
+				981D3A9D1B93FC49003A6686 /* Leches Infantiles.json in Resources */,
+				981D3AD61B93FC4A003A6686 /* Yogures Enteros.json in Resources */,
+				981D3AD71B93FC4A003A6686 /* Alimentos Condimento.json in Resources */,
+				981D3A9B1B93FC49003A6686 /* Jugos en polvo.json in Resources */,
+				981D3A841B93FC49003A6686 /* Aderezos.json in Resources */,
+				981D3AAD1B93FC49003A6686 /* Legumbres congeladas.json in Resources */,
+				981D3AB41B93FC49003A6686 /* Pastas Frescas Simples.json in Resources */,
+				981D3A971B93FC49003A6686 /* Helado dietético.json in Resources */,
+				981D3A931B93FC49003A6686 /* Fórmulas infantiles.json in Resources */,
+				981D3AA11B93FC49003A6686 /* Polvo para saborizar leches.json in Resources */,
+				981D3AA91B93FC49003A6686 /* Galletitas Dulces.json in Resources */,
+				986345551B93991200401931 /* FoodList.plist in Resources */,
+				981D3AD21B93FC4A003A6686 /* Leches Modificadas.json in Resources */,
+				981D3AA61B93FC49003A6686 /* Cereales para el desayuno.json in Resources */,
+				981D3AD91B93FC4A003A6686 /* Frutas Congeladas.json in Resources */,
+				981D3AC01B93FC4A003A6686 /* Verduras Feculentas en Conserva.json in Resources */,
+				981D3AA81B93FC49003A6686 /* Comidas elaboradas a base de almidones.json in Resources */,
+				981D3AE01B93FC4A003A6686 /* Verduras Enlatadas.json in Resources */,
+				981D3ADE1B93FC4A003A6686 /* Hongos y Brotes.json in Resources */,
+				981D3AC61B93FC4A003A6686 /* Frutos.json in Resources */,
+				981D3A881B93FC49003A6686 /* Amargos.json in Resources */,
+				981D3AAA1B93FC49003A6686 /* Galletitas y Tostaditas.json in Resources */,
+				981D3ADF1B93FC4A003A6686 /* Verduras Congeladas.json in Resources */,
+				981D3A921B93FC49003A6686 /* Dulces Mermeladas Jaleas y Miel.json in Resources */,
+				981D3A901B93FC49003A6686 /* Condimentos.json in Resources */,
+				981D3AA51B93FC49003A6686 /* Barras de cereal por unidad.json in Resources */,
+				986345571B939FB900401931 /* cereales.json in Resources */,
+				981D3ABD1B93FC4A003A6686 /* Tapas y Masas.json in Resources */,
+				981D3ACC1B93FC4A003A6686 /* Sustitutos.json in Resources */,
+				981D3AD81B93FC4A003A6686 /* Comidas preparadas a base de verduras.json in Resources */,
+				981D3AA21B93FC49003A6686 /* Repostería.json in Resources */,
+				981D3A861B93FC49003A6686 /* Aguas.json in Resources */,
+				981D3AD01B93FC4A003A6686 /* Leches fluidas enteras.json in Resources */,
+				981D3AAC1B93FC49003A6686 /* Harinas.json in Resources */,
+				981D3AC71B93FC4A003A6686 /* Grasas.json in Resources */,
+				981D3AD31B93FC4A003A6686 /* Leches Otro.json in Resources */,
+				981D3AB01B93FC49003A6686 /* Panes blancos.json in Resources */,
+				981D3A8C1B93FC49003A6686 /* Cereales Infantiles.json in Resources */,
+				981D3ABC1B93FC4A003A6686 /* Soja y derivados.json in Resources */,
+				981D3AB81B93FC49003A6686 /* Productos de Confiteria.json in Resources */,
+				981D3AB91B93FC49003A6686 /* Productos Prelistos.json in Resources */,
+				981D3A911B93FC49003A6686 /* Copetín.json in Resources */,
+				981D3A851B93FC49003A6686 /* Aguas Saborizadas.json in Resources */,
+				981D3AAB1B93FC49003A6686 /* Harinas de legumbres.json in Resources */,
+				981D3A8F1B93FC49003A6686 /* Comidas instantáneas deshidratadas.json in Resources */,
+				981D3A9F1B93FC49003A6686 /* Polvo para postre dietético.json in Resources */,
+				981D3AB31B93FC49003A6686 /* Pastas Frescas Rellenas.json in Resources */,
+				981D3A891B93FC49003A6686 /* Bebidas a base de soja.json in Resources */,
+				981D3A9E1B93FC49003A6686 /* Mermeladas Bajas Calorias.json in Resources */,
+				981D3AAE1B93FC49003A6686 /* Legumbres en conserva.json in Resources */,
+				981D3AA41B93FC49003A6686 /* Amasados Industriales.json in Resources */,
+				981D3ABA1B93FC49003A6686 /* Productos usados en panificación.json in Resources */,
+				981D3AC41B93FC4A003A6686 /* Cremas.json in Resources */,
+				981D3A9A1B93FC49003A6686 /* Infusiones.json in Resources */,
+				981D3ACD1B93FC4A003A6686 /* Leches en polvo descremadas.json in Resources */,
+				981D3ABF1B93FC4A003A6686 /* Verduras Feculentas Congeladas.json in Resources */,
+				981D3AA31B93FC49003A6686 /* Salsas.json in Resources */,
+				981D3AD51B93FC4A003A6686 /* Yogures Descremados.json in Resources */,
+				981D3AC11B93FC4A003A6686 /* Verduras Feculentas.json in Resources */,
+				981D3AC31B93FC4A003A6686 /* Aceites Vegetales.json in Resources */,
+				981D3ADD1B93FC4A003A6686 /* Frutas.json in Resources */,
+				981D3ACA1B93FC4A003A6686 /* Mayonesas y Derivados.json in Resources */,
+				981D3A961B93FC49003A6686 /* Golosinas.json in Resources */,
+				981D3AC81B93FC4A003A6686 /* Manteca.json in Resources */,
+				981D3ADB1B93FC4A003A6686 /* Frutas en conserva dietéticas.json in Resources */,
+				981D3AB21B93FC49003A6686 /* Pastas Congeladas.json in Resources */,
+				981D3A951B93FC49003A6686 /* Gaseosas.json in Resources */,
+				988D8D2D1B770C8F00DB76D9 /* Main.storyboard in Resources */,
+				988D8D321B770C8F00DB76D9 /* LaunchScreen.xib in Resources */,
+				981D3AC21B93FC4A003A6686 /* Aceites Animales.json in Resources */,
+				981D3A8B1B93FC49003A6686 /* Caldos y Sopas.json in Resources */,
+				981D3AA01B93FC49003A6686 /* Polvo para postre estandar.json in Resources */,
+				981D3A981B93FC49003A6686 /* Helado estandar.json in Resources */,
+				981D3ACE1B93FC4A003A6686 /* Leches en polvo enteras.json in Resources */,
+				981D3AE11B93FC4A003A6686 /* Verduras.json in Resources */,
+				981D3AB71B93FC49003A6686 /* Premezclas.json in Resources */,
+				981D3AD11B93FC4A003A6686 /* Leches fluidas saborizadas.json in Resources */,
+				981D3A871B93FC49003A6686 /* Alfajores.json in Resources */,
+				981D3AD41B93FC4A003A6686 /* Postres.json in Resources */,
+				981D3AB11B93FC49003A6686 /* Panes integrales.json in Resources */,
+				981D3ACF1B93FC4A003A6686 /* Leches fluidas descremadas.json in Resources */,
+				981D3AC51B93FC4A003A6686 /* Frutas Secas.json in Resources */,
+				981D3A941B93FC49003A6686 /* Gaseosas Light.json in Resources */,
+				981D3A8A1B93FC49003A6686 /* Bebidas Alcohólicas.json in Resources */,
+				988D8D2F1B770C8F00DB76D9 /* Images.xcassets in Resources */,
+				981D3AB51B93FC49003A6686 /* Pastas secas.json in Resources */,
+				981D3ABE1B93FC4A003A6686 /* Tostadas.json in Resources */,
+				981D3A8D1B93FC49003A6686 /* Chocolates.json in Resources */,
+				981D3A8E1B93FC49003A6686 /* Colados y Picados.json in Resources */,
+				981D3A9C1B93FC49003A6686 /* Jugos.json in Resources */,
+				981D3ADC1B93FC4A003A6686 /* Frutas en conserva estandar.json in Resources */,
+				981D3ACB1B93FC4A003A6686 /* Semillas.json in Resources */,
+				981D3ABB1B93FC4A003A6686 /* Rebozadores y Pan Rallado.json in Resources */,
+				981D3ADA1B93FC4A003A6686 /* Frutas disecadas.json in Resources */,
+				981D3AB61B93FC49003A6686 /* Polvo para preparar tortas.json in Resources */,
+				981D3AC91B93FC4A003A6686 /* Margarinas y Mantecas.json in Resources */,
+				981D3AA71B93FC49003A6686 /* Cereales.json in Resources */,
+				981D3A991B93FC49003A6686 /* Hierbas.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988D8D351B770C8F00DB76D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988D8D171B770C8F00DB76D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D617C91B8AB31400C160E6 /* CurveView.m in Sources */,
+				98E457501B817A15009ECC17 /* TabViewController.m in Sources */,
+				98D617E11B922C3A00C160E6 /* JVAlertControllerButton.m in Sources */,
+				988D8D2A1B770C8F00DB76D9 /* SecondViewController.m in Sources */,
+				98E38D6B1B7B638E00EF054A /* HealthManager.m in Sources */,
+				988D8D4E1B78631900DB76D9 /* StepOneViewController.m in Sources */,
+				98E4577A1B826608009ECC17 /* NSArray+PureLayout.m in Sources */,
+				98E457591B8228F5009ECC17 /* NewItemViewController.m in Sources */,
+				98E457651B825F05009ECC17 /* HealthDayDTO.m in Sources */,
+				986345531B935DFE00401931 /* FoodTableViewCell.m in Sources */,
+				98D617DD1B922C3A00C160E6 /* JVActionSheetTransitionDelegate.m in Sources */,
+				988D8D241B770C8F00DB76D9 /* AppDelegate.m in Sources */,
+				98D617E31B922C3A00C160E6 /* JVAlertControllerTextField.m in Sources */,
+				98E4575F1B825009009ECC17 /* HealthDTO.m in Sources */,
+				988D8D271B770C8F00DB76D9 /* FirstViewController.m in Sources */,
+				98D617E51B922C3A00C160E6 /* JVPopoverPresentationController.m in Sources */,
+				98D617E41B922C3A00C160E6 /* JVAlertTransitionDelegate.m in Sources */,
+				986345501B935D0C00401931 /* ComidasViewController.m in Sources */,
+				98E2309B1B9FE4BD008EDF71 /* InformacionViewController.m in Sources */,
+				988D8D511B7864FB00DB76D9 /* MainViewController.m in Sources */,
+				98D617DF1B922C3A00C160E6 /* JVAlertController.m in Sources */,
+				98D617E91B92852D00C160E6 /* DetalleViewController.m in Sources */,
+				988D8D491B772C2500DB76D9 /* InfoViewController.m in Sources */,
+				98E230981B9D08CC008EDF71 /* AllDataViewController.m in Sources */,
+				98D617E61B922C3A00C160E6 /* UIViewController+JVAlertController.m in Sources */,
+				98D617E21B922C3A00C160E6 /* JVAlertControllerStyles.m in Sources */,
+				98E457561B821C9B009ECC17 /* StatisticsViewController.m in Sources */,
+				98E457681B826373009ECC17 /* StatisticsTableViewCell.m in Sources */,
+				98D617DE1B922C3A00C160E6 /* JVAlertAction.m in Sources */,
+				98E4577B1B826608009ECC17 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				98E457621B825EF2009ECC17 /* DataTableViewCell.m in Sources */,
+				98E38D681B7B635800EF054A /* StepTwoViewController.m in Sources */,
+				98E457531B81910A009ECC17 /* CustomPopoverViewController.m in Sources */,
+				98E457791B826608009ECC17 /* ALView+PureLayout.m in Sources */,
+				98D617E01B922C3A00C160E6 /* JVAlertControllerBackgroundView.m in Sources */,
+				9863455A1B93A03700401931 /* FoodItem.m in Sources */,
+				98D617EC1B9291C900C160E6 /* DetalleTableViewCell.m in Sources */,
+				988D8D211B770C8F00DB76D9 /* main.m in Sources */,
+				988D8D541B78666A00DB76D9 /* StepThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988D8D331B770C8F00DB76D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988D8D3E1B770C8F00DB76D9 /* DiabetesTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		988D8D391B770C8F00DB76D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 988D8D1A1B770C8F00DB76D9 /* DiabetesTest */;
+			targetProxy = 988D8D381B770C8F00DB76D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		988D8D2B1B770C8F00DB76D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988D8D2C1B770C8F00DB76D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		988D8D301B770C8F00DB76D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988D8D311B770C8F00DB76D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988D8D3F1B770C8F00DB76D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		988D8D401B770C8F00DB76D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988D8D421B770C8F00DB76D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DiabetesTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		988D8D431B770C8F00DB76D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = DiabetesTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		988D8D451B770C8F00DB76D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiabetesTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiabetesTest.app/DiabetesTest";
+			};
+			name = Debug;
+		};
+		988D8D461B770C8F00DB76D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiabetesTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiabetesTest.app/DiabetesTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988D8D161B770C8F00DB76D9 /* Build configuration list for PBXProject "DiabetesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988D8D3F1B770C8F00DB76D9 /* Debug */,
+				988D8D401B770C8F00DB76D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988D8D411B770C8F00DB76D9 /* Build configuration list for PBXNativeTarget "DiabetesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988D8D421B770C8F00DB76D9 /* Debug */,
+				988D8D431B770C8F00DB76D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988D8D441B770C8F00DB76D9 /* Build configuration list for PBXNativeTarget "DiabetesTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988D8D451B770C8F00DB76D9 /* Debug */,
+				988D8D461B770C8F00DB76D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 988D8D131B770C8F00DB76D9 /* Project object */;
+}
